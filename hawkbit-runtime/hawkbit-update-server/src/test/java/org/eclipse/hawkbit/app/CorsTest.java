@@ -62,7 +62,7 @@ public class CorsTest {
         mvc = builder.build();
     }
 
-    @WithUserDetails("admin")
+    @WithUserDetails("iotteam")
     @Test
     @Description("Ensures that Cors is working.")
     public void validateCorsRequest() throws Exception {
